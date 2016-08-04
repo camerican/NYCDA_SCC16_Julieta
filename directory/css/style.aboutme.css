@@ -1,0 +1,67 @@
+body{
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+
+}
+
+h1 {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	color: grey;
+}
+h2 {
+	width: 480px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: lighter;
+	font-stretch: 10px;
+
+}
+
+ul {
+	list-style: none;
+	margin-right: 100px;
+	margin-left: 470px;
+	padding: 0;
+	align-content: center;
+
+
+}
+
+li {
+	display: inline-block;
+	padding: 5px;
+	margin: 0px 10px;
+
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+	padding-right: 8px;
+	font-size: 14px;
+}
+
+.julieta figure img{
+	width: 40%;
+	float:left;
+
+}
+
+footer{
+	position: relative;
+	top: 10px;
+
+}
+
+.socialmedia{
+	display: inline-block;
+	
+}
+
+.socialmedia img{
+	height: 40px;
+	width: 40px;
+
+}

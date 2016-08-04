@@ -1,0 +1,41 @@
+body{
+	width:600px;
+	margin:20px auto;
+	font-family: helvetica;
+
+}
+h1{
+
+	font-weight: bolder;
+	text-align: center;
+}
+
+nav ul{
+	list-style: none;
+	display: inline-block;
+}
+
+nav li {
+	display: inline-block;
+	margin:0px 50px;
+	background-color: lightgreen;
+	border-radius: 2px;
+}
+
+.position{
+	background-color: yellow;
+	position:fixed;
+	top: 20px
+}
+
+article{
+	font-family: helvetica;
+	font-weight: lighter;
+	margin-top: 170px;
+	margin-right: 60px;
+	background-color: lightyellow;
+
+}
+/*p{
+	width: 520px;
+}*/
