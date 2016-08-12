@@ -1,0 +1,113 @@
+body{
+	overflow-x:hidden;
+	margin: 40px;
+}
+h1{
+	font-family:"brandon-grotesque",sans-serif 
+
+}
+#hello{
+width: 300px;
+display:none; /*display:none */;
+}
+.Placestoeat {
+	width: 800px;
+  background-color: #E0FFFF;
+   font-weight: lighter;
+   font-family:"lusitana",serif 
+    }
+ 
+
+ .box1{
+
+	background: #BC8F8F;
+
+
+ }   
+
+ .box2{
+
+	background: #FFE4C4;
+
+ }   
+
+  .box3{
+
+	background: #DDA0DD;
+
+
+ }   
+ .box{
+ 	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	vertical-align: middle;
+ 	display:none;
+ 	float:left;
+ 	padding:0px;
+	margin:20px;
+	text-align: center;
+ }
+
+.information{
+	background-color: yellow;
+	margin-left: 730px;
+	margin-right: 10px;
+}
+
+.information.active{
+	background-color: purple;
+}
+
+#button2{
+	float:left;
+	clear:left;
+}
+#message2{
+	clear:left;
+}
+#map{
+	margin-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	width: 40%;
+    height: 350px;
+    display:none;
+}
+
+h3{
+	clear: left;
+	display:none;
+	margin-left: 200px;
+}
+#slideMe{
+	width: 300px;
+	height: 200px;
+/*	display: none;*/
+	clear:left;
+	position: absolute;
+	top: 650px;
+	right: -300px;
+}
+
+h4{
+	position: absolute;
+	clear: left;
+	margin-left: 250px;
+/*	top: 800px;*/
+	left: -700px;
+	
+}
+#schedule{
+	width: 300px;
+	height: 200px;
+	clear:left;
+	position: absolute;
+	margin-left: 550px;
+	/*top: 1000px;*/
+	right: -300px;
+}
+	/*position: absolute;
+	top: 0px;
+	right: 300px;
+}	*/
