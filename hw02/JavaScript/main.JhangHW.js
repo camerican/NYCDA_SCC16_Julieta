@@ -3,10 +3,15 @@
 
 
 function alertName (SomeName){
-	return alert (SomeName);
+	return alert (SomeName); // [CC] alert returns an undefined value
 }
 
-function someNumber (numberOne, SomeNumber){
+// [CC] careful with variable names collisions
+// the function "someNumber" and its 2nd argument "SomeNumber"
+// are close to being the same, which can cause confusion.
+// If they are the same, JavaScript won't let you call the 
+// function from within itself (recursion)
+function someNumber (numberOne, SomeNumber){ 
 	console.log (parseInt(numberOne) + 10 + parseInt(SomeNumber));
 }
 
@@ -44,10 +49,19 @@ if (value >10){
 }else{
 	alert ("the difference between your number and 10 is:" + (value-10));
 }
+// [CC] you'd probably want to write:
+//      Math.abs(10-value)
+// instead of:
+//      (value-10)
+// 
+//  Math.abs() returns the absolute value, meaning it will convert a
+//  negative number to a positive number equally far from 0...
+//  so Math.abs(10-5) == Math.abs(10-15)
+
 
 // 6. Write a function that checks if a string passed in as an 
 // argument is the same as another string. If it is, console.log "success". 
-var password = "opensesame"
+var password = "opensesame";
 
 function similarStrings (oneString, anotherString){
 	if (oneString === anotherString) {
