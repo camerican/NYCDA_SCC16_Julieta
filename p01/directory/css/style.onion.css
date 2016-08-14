@@ -1,0 +1,45 @@
+.headline{
+	color: darkgreen;
+}
+.headline, .subheadline{
+	font-family: georgia;
+	text-align: center;
+}
+
+body{
+	width:600px;
+	margin:20px auto;
+}
+
+.from{
+	font-family: georgia;
+	text-align: center;
+
+}
+.picture{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+p{
+	line-height: 19px;
+	font-family: helvetica;
+	
+}
+.note{
+	text-transform: uppercase;
+	
+}
+
+a{
+	text-decoration: none;
+}	
+a: hover{
+	text-decoration: underline
+}
+a: visited{
+	color: green;
+}
+
+
+}
